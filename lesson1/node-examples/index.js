@@ -1,11 +1,4 @@
-var rect ={
-  peri : function (a,b){
-    return (2*(a+b));
-  },
-  area : function (a,b){
-    return (a*b);
-  }
-};
+var rect = require('./rectangle');
 
 function solveRect(a,b){
   if(a<=0 || b<=0){
