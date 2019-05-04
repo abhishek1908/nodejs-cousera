@@ -1,12 +1,16 @@
 var rect = require('./rectangle');
 
 function solveRect(a,b){
-  if(a<=0 || b<=0){
-    console.log("Dimensions should be greater than zero!!");
-  }else{
-      console.log("Area of rectangle is "+rect.area(a,b));
-      console.log("Perimeter of rectangle is "+rect.peri(a,b));
-  }
+  rect(a,b,function (err,rectangle){
+    if(err){
+      console.log("Error : "+err.message);
+    }else{
+      console.log("Area of rectangle is "+rectangle.area());
+      console.log("Perimeter of rectangle is "+rectangle.peri());
+    }
+  });
+
+  console.log("this statement is executed after the rect function.");
 }
 
 solveRect(2,4);
