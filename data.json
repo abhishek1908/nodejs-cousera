@@ -1,0 +1,37 @@
+{
+    "country":[{
+        "North America":{
+            "college":[]
+        }
+    },{
+        "South America":{
+            "college":[
+                "FGV-EBAPE",
+                "PUC",
+                "Universidade de Sao Paulo",
+                "Universidad de Chile",
+                "Universidad de Los Andes"
+            ]
+        }
+    },{
+        "Europe":{
+            "college":[
+                "Copenhagen Business School",
+                "Helsinki School of Economics and B.A.",
+                "Ludwig-Maximilians Universität",
+                "University of Mannheim",   
+                "WHU"
+            ]
+        }
+    },{
+        "Asia":{
+            "college":[
+                "Osaka University",
+                "GSIS - Seoul National University",
+                "Fudan University",
+                "IIM Ahemedabad",
+                "KDI School of Public Policy and Management"
+            ]
+        }
+    }]
+}
