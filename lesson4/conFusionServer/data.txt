@@ -1,3 +1,35 @@
 AppId: 393752084574099
 App Secret : 8d1e2c32dda673ead0f22353e445584d
 /Users/I514375/mongodb/bin/mongod.exe --dbpath=/Users/I514375/mongodb-data
+
+Resources:
+commit : facbook passport token
+https://github.com/drudge/passport-facebook-token
+https://mherman.org/blog/social-authentication-with-passport-dot-js/
+https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2
+http://www.bubblecode.net/en/2016/01/22/understanding-oauth2/
+
+commit : cors
+https://www.npmjs.com/package/cors
+https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy
+https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Server-Side_Access_Control
+https://medium.com/@alexishevia/using-cors-in-express-cac7e29b005b
+https://www.html5rocks.com/en/tutorials/cors/
+https://humanwhocodes.com/blog/2010/05/25/cross-domain-ajax-with-cross-origin-resource-sharing/
+
+commit : file upload
+https://github.com/expressjs/multer
+http://derpturkey.com/node-multipart-form-data-explained/
+
+
+commit : https implementation
+Genarating keys : 
+openssl genrsa 1024 > private.key
+openssl req -new -key private.key -out cert.csr
+openssl x509 -req -in cert.csr -signkey private.key -out certificate.pem
+
+Resources:
+https://blog.didierstevens.com/2015/03/30/howto-make-your-own-cert-with-openssl-on-windows/
+https://www.sitepoint.com/how-to-use-ssltls-with-node-js/
+https://robertheaton.com/2014/03/27/how-does-https-actually-work/
