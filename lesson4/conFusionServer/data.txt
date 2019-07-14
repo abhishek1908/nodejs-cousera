@@ -1,5 +1,4 @@
-AppId: 393752084574099
-App Secret : 8d1e2c32dda673ead0f22353e445584d
+
 /Users/I514375/mongodb/bin/mongod.exe --dbpath=/Users/I514375/mongodb-data
 
 Resources:
